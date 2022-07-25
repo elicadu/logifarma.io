@@ -1,0 +1,330 @@
+h1, h2, h3, h4, h5, h6, p, a, span, strong, div, form, select, option, textarea, button {
+font-family: 'Montserrat', sans-serif; }
+    
+    header, main, footer, aside, nav, figure, figcaption, article { display: block;}
+    
+    h1, h2, h3, h4, h5, h6, p {margin: 0; }
+    
+    body { margin: 0 !important;}
+
+html {scroll-behavior: smooth;}
+
+/*#38A525*/
+
+
+
+aside#menu-movil.abajo { width: 100%; height: 10vh; position: fixed; top: 0; right: 0; z-index: 9999; margin: 0; float: none; background: #3c468ff5; transition: 0.7s;}
+aside#menu-movil.abajo a#logo {width: 25%; height: 10%; position: fixed; top: 0; left: 0; z-index: 999; margin: 0; float: none; background: transparent; transition: 0.7s;}
+aside#menu-movil.abajo a#logo img#vec {width: 22%; height: 10%; position: fixed; top: 0px; left: 0px; display: flex; transition: 0.7s;}
+aside#menu-movil.abajo a#logo img#log {width: 60%; height: 65%; top: 20%; left: 9%; position: relative; image-rendering: auto; transition: 0.7s;}
+aside#menu-movil.abajo nav { width: 100%; height: 100%; position: relative; top: 0; left: 0; right: 0; padding: 0 0px 0 0vh; background: #ffffff00; transition: 0.7s;}
+aside#menu-movil.abajo nav :hover {opacity: 0.7; transition: all 0.2s ease-out; transition: 0.7s;}
+aside#menu-movil.abajo nav a {width: auto; height: auto; margin: 0 27px 0px 0px; top: 23px; left: 105vh;  position: relative; color: #ffffff; font-style: normal; font-weight: 500; text-decoration: none; transition: 0.7s;}
+aside#menu-movil.abajo nav a :hover {opacity: 0.7; transition: all 0.2s ease-out; transition: 0.7s;}
+
+ 
+aside#menu-movil { width: 100%; height: 10vh; position: absolute; top: 0; right: 0; z-index: 9999; margin: 0; float: none;}
+aside#menu-movil a#logo {width: 33%; height: 10%; position: relative; top: 0; left: 0; z-index: 999; margin: 0; float: none; background: transparent;}
+aside#menu-movil a#logo img#vec {width: 22%; height: 10%; position: fixed; top: 0px; left: 0px; display: none;}
+aside#menu-movil a#logo img#log {width: 15%; height: 62%; top: 21%; left: 2%; position: relative; image-rendering: auto;}
+aside#menu-movil nav { width: 100%; height: 100%; position: absolute; top: 0; left: 0; right: 0; padding: 0 0px 0 0vh; background: #80808000;}
+aside#menu-movil nav :hover {opacity: 0.7; transition: all 0.2s ease-out;}
+aside#menu-movil nav a {width: auto; height: auto; margin: 0 27px 0px 0px; top: 23px; left: 105vh;  position: relative; color: #ffff; font-style: normal; font-weight: 500; text-decoration: none}
+aside#menu-movil nav a :hover {opacity: 0.7; transition: all 0.2s ease-out;}
+
+
+
+/*aside#menu-movil header {width: 250px; height: 72px; position: absolute; top: 0; left: 0; z-index: 999; margin: 0; float: none; background: transparent; }
+
+
+aside#menu-movil header a {  width: 100%; height: 100%; display: block; position: relative; margin: 0px 0 0px 0px; float: left; 
+transition: all 0.3s ease-out; background: #80808000;}
+aside#menu-movil header a img {width: 185px; height: 43px; top: 16px; left: 30px; position: relative; image-rendering: auto;}
+aside#menu-movil header a :hover {opacity: 0.7; transition: all 0.3s ease-out; }*/
+
+
+
+main { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; }
+
+main section#fondo1 { width: 100%; height: 100vh; position: relative; margin: 0 auto; 
+top: 0; left: 0;  z-index: 1; display: block;
+}
+main section#fondo1 img#fondo {width: 100%; height: 100%; position: absolute; margin: 0 auto; top: 0; left: 0;  z-index: 1; display: block; filter: brightness(0.6);
+}
+main section#fondo1 article a#flecha { position: absolute; top: -10%; left: 110%; 
+}
+main section#fondo1 article a#flecha img#flechabajo { transition: all 0.3s ease-out; animation-name: anima-flecha-abajo;
+animation-duration: 3s; animation-play-state: running; animation-direction: normal;
+animation-iteration-count: infinite; animation-timing-function: ease-out;
+}
+main section#fondo1 article{width: 44%; height: 37%; position: relative; top: 66%; left: 0;  z-index: 2; float: none; display: block; background: #3c468ff5;
+} 
+main section#fondo1 article a#linea { width: 90%; height: 38%; position: absolute; left: 10%; top: 10%;
+}
+main section#fondo1 article a#linea img#lineamiga {width: 46%; height: 37%;
+}
+main section#fondo1 article a#whats { width: 8%; height: 18%; position: absolute; top: 63%; left: 20%;
+}
+main section#fondo1 article a#whats img#whatsapp {width: 100%; height: 100%;
+}
+
+main section#fondo1 article h1{font-weight: 500; font-size: 3em; line-height: 1em; padding: 13vh 86px 21px 0; text-align: center; color: #ffffff; 
+}
+main section#fondo1 article div {font-weight: 500; font-size: 2.5em; line-height: 1em; padding: 0 0 0 0; text-align: center; color: #ffffff; z-index: 100;
+}
+main section#fondo1 article div a#numer { text-decoration: none; color: white; z-index: 100;
+}
+main section#fondo1 article div :hover {opacity: 0.5; transition: all 0.2s ease-out;}
+main section#fondo1 article hr { position: relative; width: 35vh; height: 1px; background: #ffffff;
+}
+
+
+@keyframes anima-flecha-abajo {
+    0% {margin: 27vh  auto 0 auto;}
+    50% {margin: 30vh auto 0 auto; }
+    100% {margin: 27vh auto 0 auto; }
+}
+
+
+/*main section#fondo1 article a#linea {background: url("../img/linea\ amiga.png") no-repeat top center; background-size: cover; 
+width: 274px; top: 22px; left: 12vh;}
+
+main section#fondo1 article a#whats {background: url("../img/WhatsApp.svg.png") no-repeat top center; background-size: cover; top: 161px;
+left: -131px;}*/
+
+
+main section#titulo {width: 100%; height: 20vh; position: relative; margin: 10px 0 7px 0; }
+main section#titulo article {width: 100%; height: 100%; position: relative; top: 72px;}
+main section#titulo article h1 {font-style: normal; font-weight: 600; color: #3c468f; font-size: 2.5em; text-align: center;}
+
+
+
+main section#dispen {width: 100%; height: 45vh; position: relative;}
+main section#dispen img {width: 30%; height: 61%; position: absolute; z-index: auto; top: 0px; left: 68vh;
+}
+main section#dispen article {position: relative; height: 19vh; width: 86%; top: 55%; margin: auto;
+}
+main section#dispen article h1 {width: 25%; height: 25px; font-style: normal; font-weight: 500; font-size: 1em; padding: 0 0 0 0; position: relative; top: 0vh; left: 0px;
+}
+main section#dispen article div.inputContainer-1 {position: absolute; height: 35px; width: 16%; margin-bottom: 17px; left: 0%; top: 40%;
+}
+main section#dispen article div.inputContainer-2 {position: absolute; height: 35px; width: 16%; margin-bottom: 17px; left: 23%; top: 40%;
+}
+main section#dispen article div.inputContainer-3 {position: absolute; height: 35px; width: 16%; margin-bottom: 17px; left: 46%; top: 40%;
+}
+main section#dispen article div input {position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; border: 1px solid #DADCE0; border-radius: 7px; font-size: 16px; padding: 0 20px; outline: none; background: none; z-index: 1;
+}
+main section#dispen article div input:focus + label {top: -7px; left: 3px; z-index: 10; font-size: 14px; font-weight: 500; color: #3c468f;
+}
+main section#dispen article div label {position: absolute; top: 28%; left: 9%; padding: 0 4px; background-color: white; color: #DADCE0; font-size: 16px; transition: 0.5s; z-index: 0;
+}
+.submitBtn {display: block; border: none; background-color:#a1a1a1; color: white; border-radius: 6px; cursor: pointer; font-size: 13px; font-family: 'Montserrat'; font-weight: 500; width: 7%; height: 23%; position: relative; top: 23%; left: 68%;
+  }
+  
+  .submitBtn:hover {
+    background-color: #3c468f81;
+    transform: translateY(-2px);
+  }
+
+  ::placeholder {
+    color: transparent;
+  }
+
+  
+/*width: 162px; height: 15px;*/
+/*width: 161px; height: 45px; font-style: normal; font-weight: 500; font-size: 1em; padding: 0 50px 0 0; position: relative; top: 32vh; left: 62px; z-index: 999; color: black; text-decoration: none; margin: 11px; border-bottom: solid 1px;*/
+
+
+
+main section#ubicacion {width: 100%; height: 86vh; position: relative;}
+main section#ubicacion article {width: 100%; height: 240px; position: relative; margin: 0; float: left; display: block; text-decoration: none; transition: all 0.3s ease-out
+}
+main section#ubicacion article nav { width: 100%; height: 680px; position: relative; margin: 0 auto; float: none;
+}
+main section#ubicacion article nav a img {position: absolute; transform: scale(0.7); top: -12px; left: -21px; border-radius: 21px;
+}
+main section#ubicacion article nav a {width: 353px; height: 214px; position: relative; margin: 0px 0 40px 30px; float: left; display: block; text-decoration: none; transition: all 0.6s ease-out; border: solid .5px rgba(150, 150, 150, 0.95); border-radius: 15px;
+}
+main section#ubicacion article nav a strong { width: 30px; height: 20px; color: #000; font-size: 1.3em; font-weight: 400; 
+position: relative; left: 17px; top: 24px; line-height: 1.3em;}
+main section#ubicacion article nav a p {width: 130px; height: 150px; color: #000; font-size: 0.9em; font-weight: 500; 
+position: relative; 
+left: 219px; top: 21px; letter-spacing: 0em; line-height: 1.1em; bottom: 2%;
+}
+main section#ubicacion article nav a input {width: 70px; height: 25px; position: relative; top: 0%; left: 69%; display: block; border: none; background-color:#a1a1a1; color: white; border-radius: 6px; cursor: pointer; font-size: 13px; font-family: 'Montserrat'; font-weight: 500; filter: drop-shadow(1px 1px 2px black);
+}
+main section#ubicacion article nav a input.b-dispensario:hover {
+background-color: #3c468f81;
+transform: translateY(-2px);
+  }
+
+
+main section#final {position: relative; width: 100%; height: 268px; left: 0; top: 0px; 
+background: #3C468F;}
+main section#final article {width: 100%; height: 50%; position: relative; }
+main section#final article a {padding: 0 2px 0 13vh; position: relative; top: 80px; left: 175px; text-decoration: none; color: #ffffff;}
+main section#final article hr {width: 84%; height: 1px; position: relative; margin: 0 auto 24px; float: none; border: none; 
+background: rgb(255, 255, 255); opacity: 0.5; top: 156px;}
+main section#final article p {padding: 0 2px 0 7vh; position: relative; top: 189px; left: 0px; text-decoration: none; color: #ffffff;}
+
+
+
+/*movile*/
+@media only screen and (max-width: 499px){
+
+  h1, h2, h3, h4, h5, h6, p, a, span, strong, div, form, select, option, textarea, button {
+    font-family: 'Montserrat', sans-serif; }
+        
+        header, main, footer, aside, nav, figure, figcaption, article { display: block;}
+        
+        h1, h2, h3, h4, h5, h6, p {margin: 0; }
+        
+        body { margin: 0 !important;}
+    
+    html {scroll-behavior: smooth;}
+
+aside#menu-movil { width: 100%; height: 10vh; position: absolute; top: 0; right: 0; z-index: 9999; margin: 0; float: none;}
+aside#menu-movil a#logo {width: 26%; height: 52%; position: absolute; top: 12%; left: 3%; z-index: 999; margin: 0; float: none; background: transparent; filter: drop-shadow(11px 1px 8px white);}
+aside#menu-movil a#logo img#vec {width: 100%; height: 100%; position: inherit; top: 0px; left: 0px; display: none;}
+aside#menu-movil a#logo img#log {width: 90%; height: 90%;}
+aside#menu-movil nav { width: 100%; height: 100%; position: absolute; top: 0; left: 0; right: 0; padding: 0 0px 0 0vh; background: #80808000;}
+aside#menu-movil nav :hover {opacity: 0.7; transition: all 0.2s ease-out;}
+aside#menu-movil nav a {width: auto; height: auto; margin: 0 0% 0px 0px; top: 28%; left: 35%;  position: relative; color: #ffff; font-style: normal; font-weight: 500; text-decoration: none; font-size: 12px;  border: solid .1px; padding: 5px 0;}
+aside#menu-movil nav a :hover {opacity: 0.7; transition: all 0.2s ease-out;}
+
+aside#menu-movil.abajo { width: 100%; height: 8vh; position: fixed; top: 0; right: 0; z-index: 9999; margin: 0; float: none; background: #3c468ff5; transition: 0.7s;}
+aside#menu-movil.abajo a#logo {width: 26%; height: 8.2%; position: fixed; top: 0%; left: 0%; z-index: 999; margin: 0; float: none; background: transparent; transition: 0.7s; filter: none;}
+aside#menu-movil.abajo a#logo img#vec {width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; display: block; transition: 0.7s;}
+aside#menu-movil.abajo a#logo img#log {width: 90%; height: 70%; position: absolute; top: 19%; left: 3%;}
+aside#menu-movil.abajo nav { width: 100%; height: 100%; position: relative; top: 0; left: 0; right: 0; padding: 0 0px 0 0vh; background: #ffffff00; transition: 0.7s;}
+aside#menu-movil.abajo nav :hover {opacity: 0.7; transition: all 0.2s ease-out; transition: 0.7s;}
+aside#menu-movil.abajo nav a {width: auto; height: auto; margin: 0 0px 0px 9px; top: 28%; left: 34%;  position: relative; color: #ffffff; font-style: normal; font-weight: 500; text-decoration: none; transition: 0.7s; font-size: 11px; border: solid 0;}
+aside#menu-movil.abajo nav a :hover {opacity: 0.7; transition: all 0.2s ease-out; transition: 0.7s;}
+ 
+
+
+main { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; }
+
+main section#fondo1 { width: 100%; height: 100vh; position: relative; margin: 0 auto; 
+top: 0; left: 0;  z-index: 1; display: block;
+}
+main section#fondo1 img#fondo {width: 100%; height: 100%; position: absolute; margin: 0 auto; top: 0; left: 0;  z-index: 1; display: block; filter: brightness(0.7);
+}
+main section#fondo1 article { width: 45%; height: 28%; position: relative; top: 74%; left: 0%; z-index: 99; float: none; display: block; background: #3c468ff5; 
+}
+main section#fondo1 article a#linea { width: 77%; height: 12%; position: absolute; left: 8%; top: 13%;
+}
+main section#fondo1 article a#linea img#lineamiga {width: 100%; height: 100%;
+}
+main section#fondo1 article h1{font-weight: 500; font-size: 1.5em; line-height: 1em; text-align: center; color: #ffffff; top: 37%; left: 2%; position: relative; padding: 0;
+}
+main section#fondo1 article div {font-weight: 500; font-size: 1.4em; line-height: 1em; padding: 0 0 0 0; text-align: center; color: #ffffff; z-index: 100; position: relative; top: 51%; left: 12%;
+}
+main section#fondo1 article div a#whats { width: 13%; height: 100%; position: absolute; top: 8%; left: 6%;
+}
+main section#fondo1 article div a#whats img#whatsapp {width: 100%; height: 100%;
+}
+main section#fondo1 article div a#numer { text-decoration: none; color: white; z-index: 100;
+}
+main section#fondo1 article div :hover {opacity: 0.5; transition: all 0.2s ease-out;}
+main section#fondo1 article hr { position: relative; width: 57%; height: 1px; background: #ffffff; top: 50%; left: 12%;
+}
+main section#fondo1 a#flecha { position: absolute; top: 60%; left: 49%; z-index: 10; 
+}
+main section#fondo1 a#flecha img#flechabajo { transition: all 0.3s ease-out; animation-name: anima-flecha-abajo;
+animation-duration: 3s; animation-play-state: running; animation-direction: normal;
+animation-iteration-count: infinite; animation-timing-function: ease-out;
+}
+
+
+main section#titulo {width: 100%; height: 20vh; position: relative; margin: 10px 0 7px 0; }
+main section#titulo article {width: 100%; height: 100%; position: relative; top: 72px;}
+main section#titulo article h1 {font-style: normal; font-weight: 600; color: #3c468f; font-size: 2.5em; text-align: center;}
+
+main section#dispen {width: 100%; height: 52vh; position: relative;}
+main section#dispen img {width: 47%; height: 61%; position: absolute; z-index: auto; top: 0px; left: 26%; 
+}
+main section#dispen article {position: relative; height: 19vh; width: 86%; top: 63%; margin: auto;
+}
+main section#dispen article h1 {width: 25%; height: 25px; font-style: normal; font-weight: 500; font-size: 0.8em; padding: 0 0 0 0; position: relative; top: 0vh; left: 0px;
+}
+main section#dispen article div.inputContainer-1 {position: absolute; height: 20%; width: 9%; margin-bottom: 17px; left: 0%; top: 40%;
+}
+main section#dispen article div.inputContainer-2 {position: absolute; height: 20%; width: 9%; margin-bottom: 17px; left: 27%; top: 40%;
+}
+main section#dispen article div.inputContainer-3 {position: absolute; height: 20%; width: 9%; margin-bottom: 17px; left: 54%; top: 40%;
+}
+main section#dispen article div input {position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; border: 1px solid #DADCE0; border-radius: 7px; font-size: 16px; padding: 0 32px; outline: none; background: none; z-index: 1;
+}
+main section#dispen article div input:focus + label {top: -7px; left: 3px; z-index: 10; font-size: 14px; font-weight: 500; color: #3c468f;
+}
+main section#dispen article div label {position: absolute; top: 28%; left: 9%; padding: 0 4px; background-color: white; color: #DADCE0; font-size: 12px; transition: 0.5s; z-index: 0;
+}
+.submitBtn {display: block; border: none; background-color:#a1a1a1; color: white; border-radius: 6px; cursor: pointer; font-size: 12px; font-family: 'Montserrat'; font-weight: 500; width: 14%; height: 19%; position: relative; top: 26%; left: 84%;
+  }
+  
+.submitBtn:hover {
+background-color: #3c468f81;
+transform: translateY(-2px);
+}
+
+::placeholder {
+color: transparent;
+}
+
+main section#ubicacion {width: 100%; height: 89vh; position: relative;}
+main section#ubicacion article {width: 100%; height: 240px; position: relative; margin: 0; float: left; display: block; text-decoration: none; transition: all 0.3s ease-out
+}
+main section#ubicacion article nav { width: 100%; height: 680px; position: relative; margin: 0 auto; float: none;
+}
+main section#ubicacion article nav a img {position: absolute; transform: scale(0.7); top: -12px; left: -21px; border-radius: 21px;
+}
+main section#ubicacion article nav a#proy-01 {width: 353px; height: 214px; position: relative; margin: 0px 0 40px 30px; float: left; display: block; text-decoration: none; transition: all 0.6s ease-out; border: solid .5px rgba(150, 150, 150, 0.95); border-radius: 15px;
+}
+main section#ubicacion article nav a#proy-02 {width: 353px; height: 214px; position: relative; margin: 0px 0 40px 30px; float: left; display: block; text-decoration: none; transition: all 0.6s ease-out; border: solid .5px rgba(150, 150, 150, 0.95); border-radius: 15px;
+}
+main section#ubicacion article nav a#proy-03 {width: 353px; height: 214px; position: relative; margin: 0px 0 40px 30px; float: left; display: block; text-decoration: none; transition: all 0.6s ease-out; border: solid .5px rgba(150, 150, 150, 0.95); border-radius: 15px;
+}
+main section#ubicacion article nav a#proy-04 {width: 353px; height: 214px; position: relative; margin: 0px 0 40px 30px; float: left; display: block; text-decoration: none; transition: all 0.6s ease-out; border: solid .5px rgba(150, 150, 150, 0.95); border-radius: 15px;
+}
+main section#ubicacion article nav a#proy-05 {display: none;
+}
+main section#ubicacion article nav a#proy-06 {display: none;
+}
+main section#ubicacion article nav a strong { width: 30px; height: 20px; color: #000; font-size: 1.3em; font-weight: 400; 
+position: relative; left: 17px; top: 24px; line-height: 1.3em;}
+main section#ubicacion article nav a p {width: 130px; height: 150px; color: #000; font-size: 0.9em; font-weight: 500; 
+position: relative; 
+left: 219px; top: 21px; letter-spacing: 0em; line-height: 1.1em; bottom: 2%;
+}
+main section#ubicacion article nav a input {width: 70px; height: 25px; position: relative; top: 0%; left: 69%; display: block; border: none; background-color:#a1a1a1; color: white; border-radius: 6px; cursor: pointer; font-size: 13px; font-family: 'Montserrat'; font-weight: 500; filter: drop-shadow(1px 1px 2px black);
+}
+main section#ubicacion article nav a input.b-dispensario:hover {
+background-color: #3c468f81;
+transform: translateY(-2px);
+}
+
+main section#final {position: relative; width: 100%; height: 268px; left: 0; top: 0px; 
+background: #3C468F;}
+main section#final article {width: 100%; height: 50%; position: relative; }
+main section#final article a {padding: 0 2px 0 2%; position: relative; top: 80px; left: 7%; text-decoration: none; color: #ffffff; font-size: 0.8em;}
+main section#final article hr {width: 84%; height: 1px; position: relative; margin: 0 auto 24px; float: none; border: none; 
+background: rgb(255, 255, 255); opacity: 0.5; top: 156px;}
+main section#final article p {padding: 0 2px 0 7vh; position: relative; top: 189px; left: 0px; text-decoration: none; color: #ffffff; font-size: 0.7em; 
+}
+
+}
+
+
+
+/*mediun movil*/
+@media only screen and (max-width: 879px){
+
+
+
+}
+
+/*tableb*/
+@media only screen and (max-width: 1199px){
+  
+}
