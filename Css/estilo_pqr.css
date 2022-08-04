@@ -1,0 +1,233 @@
+h1, h2, h3, h4, h5, h6, p, a, span, strong, div, form, select, option, textarea, button {
+    font-family: 'Montserrat', sans-serif; }
+        
+        header, main, footer, aside, nav, figure, figcaption, article { display: block;}
+        
+        h1, h2, h3, h4, h5, h6, p {margin: 0; }
+        
+        body { margin: 0 !important;}
+html {scroll-behavior: smooth;}
+
+
+aside#menu-movil { width: 100%; height: 10vh; position: relative; top: 0; right: 0; z-index: 9999; margin: 0; float: none;
+}
+aside#menu-movil a#abrir { display: none;}
+aside#menu-movil a#cerrar { display: none;
+}
+aside#menu-movil img {width: 22%; height: 10%; position: fixed; top: 0px; left: 0px; display: none;}
+aside#menu-movil nav { width: 100%; height: 100%; position: absolute; top: 0; left: 0; right: 0; padding: 0 0px 0 0vh; background: #80808000;}
+aside#menu-movil nav :hover {opacity: 0.7; transition: all 0.2s ease-out;}
+aside#menu-movil nav a {width: auto; height: auto; margin: 0 27px 0px 0px; top: 23px; left: 105vh;  position: relative; color: #333; font-style: normal; font-weight: 500; text-decoration: none}
+aside#menu-movil nav a :hover {opacity: 0.7; transition: all 0.2s ease-out;
+}
+header {width: 18%; height: 8%; position: fixed; top: 0; left: 0; z-index: 9999; margin: 0; float: none; background: #ffffff00; 
+}
+header a {  width: 100%; height: 100%; display: block; position: relative; 
+margin: 11px 0 11px 15px; float: left; transition: all 0.3s ease-out; 
+}
+header a img { width: 100%; height: 100%; display: block; }
+header a :hover {opacity: 0.7; transition: all 0.3s ease-out; }
+#menu-movil.abajo nav a :hover {opacity: 0.7; transition: all 0.2s ease-out; transition: 0.7s;}
+
+
+
+aside#menu-movil.abajo { width: 100%; height: 10vh; position: fixed; top: 0; right: 0; z-index: 9999; margin: 0; float: none; background: #3c468ff5; transition: 0.7s;
+}
+aside#menu-movil.abajo nav { width: 100%; height: 100%; position: relative; top: 0; left: 0; right: 0; padding: 0 0px 0 0vh; background: #ffffff00; transition: 0.7s;}
+aside#menu-movil.abajo nav :hover {opacity: 0.7; transition: all 0.2s ease-out; transition: 0.7s;}
+aside#menu-movil.abajo nav a {width: auto; height: auto; margin: 0 27px 0px 0px; top: 23px; left: 105vh;  position: relative; color: #ffffff; font-style: normal; font-weight: 500; text-decoration: none; transition: 0.7s;}
+aside#menu-movil.abajo nav a :hover {opacity: 0.7; transition: all 0.2s ease-out; transition: 0.7s;}
+aside#menu-movil.abajo img {width: 22%; height: 10%; position: fixed; top: 0px; left: 0px; display: block;}
+
+
+main { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; }
+
+main section#titu {width: 100%; height: 20%; position: relative; z-index: 99; margin: 0 auto;}
+main section#titu article {width: 100%; height: 100%; }
+main section#titu article p {font-size: 12px; font-weight: 300; line-height: 32px; padding: 0 0 0 6px; font-style: normal;}
+main section#titu article h2 { position: relative; text-align: center; font-style: normal; font-weight: 500; font-size: 24px; line-height: 32px; }
+main section#titu article h1 { width: auto; height: auto; position: relative; font-style: normal; font-weight: 400; font-size: 14px; line-height: 32px; margin: 0 0 0 20%; }
+
+main section#formu {width: 100%; height: 80vh; position: relative; margin: 14px auto; }
+main section#formu form{width: 60%; height: 100%; margin: auto;}
+
+main section#formu form label { font-style: normal; font-weight: 500; font-size: 14px; line-height: 32px; color: rgba(0, 0, 0, 0.43);}
+main section#formu form input { position: relative;}
+
+main section#formu form label#tip { width: auto; position: relative; display: block; z-index: 999; height: 20px; text-align: center; margin: 10px 0 10px 0;}
+main section#formu form hr { width: 63%; height: auto; position: relative; left: 0;}
+main section#formu form div#div-0 {width: 62%; height: auto; position: relative; left: 19.5%;
+}
+
+main section#formu form div#div-1 {width: 100%; height: auto; position: relative; left: 0;}
+main section#formu form label#t-departamento {position: relative; }
+main section#formu form input#i-departamento { margin: 0px 20px 0 0;;
+}
+main section#formu form label#t-ciudad {margin: 0 8px 0 0;}
+main section#formu form input#i-ciudad {position: relative;
+}
+
+
+main section#formu form div#div-2 { width: 100%; height: 28%; position: relative; left: 0;}
+main section#formu form div label#t-nombre {margin: 0 38px 0px 0px;}
+main section#formu form div input#i-nombre {margin: 0 14px 30px 0px;;
+}
+main section#formu form div label#t-apellido {margin: 0 0px 10px 0px;}
+main section#formu form div input#i-apellido { margin: 0 0px 30px 0px;
+}
+main section#formu form div label#t-direccion {margin: 0 35px 0px 0px;}
+main section#formu form div input#i-direccion {margin: 0 14px 30px 0px;
+}
+main section#formu form div label#t-telefono {margin: 0 6px 0px 0px;}
+main section#formu form div input#i-telefono {margin: 0 0px 30px 0px;
+}
+main section#formu form div label#t-correo {margin: 0 55px 0px 0px;}
+main section#formu form div input#i-correo {margin: 0 0px 30px 0px;
+}
+
+main section#formu form label#t-caso {position: relative; }
+
+main section#formu form div#div-3 {width: 100%; height: auto; position: relative; left: 0;}
+
+main section#formu form div#d-enviar { width: 10%; height: 6%; position: relative; top: -7%; left: 66%;}
+main section#formu form div input#i-enviar {border-width: 1px; padding: 6px 16px; border-radius: 5px;
+}
+
+main section#final {position: relative; width: 100%; height: 33vh; left: 0; top: 0px; 
+background: #3c468f;}
+main section#final article {width: 100%; height: 50%; position: relative; }
+main section#final article a {padding: 0 2px 0 13vh; position: relative; top: 50%; left: 175px; text-decoration: none; color: #ffffff; font-size: 1em; font-weight: 400;}
+main section#final article hr {width: 84%; height: 1px; position: relative; margin: 0 auto 24px; float: none; border: none; background: rgb(255, 255, 255); opacity: 0.5; top: 129%;}
+main section#final article p {padding: 0 2px 0 7vh; position: relative; top: 127%; left: 0px; text-decoration: none; color: #ffffff; font-size: 0.8em; font-weight: 300;}
+
+
+
+
+/*movile*/
+@media only screen and (max-width: 499px){
+
+    h1, h2, h3, h4, h5, h6, p, a, span, strong, div, form, select, option, textarea, button {
+      font-family: 'Montserrat', sans-serif; }
+          
+          header, main, footer, aside, nav, figure, figcaption, article { display: block;}
+          
+          h1, h2, h3, h4, h5, h6, p {margin: 0; }
+          
+          body { margin: 0 !important;}
+      
+      html {scroll-behavior: smooth;}
+  
+  
+      header {width: 100%; height: 8%; position: fixed; top: 0; left: 0; z-index: 999; margin: 0; float: none; background: #ffffff; }
+      header a {  width: 40%; height: 70%; display: block; position: relative; 
+      margin: 11px 0 11px 15px; float: left; transition: all 0.3s ease-out; }
+      header a img { width: 100%; height: 100%; display: block; }
+      header a img#vec { display: none; }
+      header a :hover {opacity: 0.7; transition: all 0.3s ease-out; }
+  
+  
+  
+      aside#menu-movil { width: 50%; height: 30%; position: fixed; top: 0; right: -50%; z-index: 9999; margin: 0; float: none; background: rgb(51, 51, 51, 0.95); 
+      }
+      aside#menu-movil a#abrir { width: 36px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 15px; left: -50px; z-index: 5; background: #ffffff; text-align: center; color: #000000; font-size: 1em; padding: 8.5px 0; transition: all 0.3s ease-out;}
+      aside#menu-movil a#abrir :hover { background: #fff; color: #222; transition: all 0.3s ease-out;}
+      
+      aside#menu-movil a#cerrar {width: 36px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 0px; left: 0px; z-index: 9; background: #222; text-align: center; color: #fff; font-size: 1em; padding: 8.5px 0; transition: all 0.3s ease-out; }
+      aside#menu-movil a#cerrar :hover {background: #fff; color: #222; transition: all 0.3s ease-out; }
+      
+      aside#menu-movil nav { width: 70%; height: auto; position: relative; margin: 6vh auto 0 auto; float: none; top: auto; left: auto; padding: 0; background: none;
+      }
+      aside#menu-movil nav a { width: 100%; height: auto; display: block; margin: 0 auto 5vh; color: #fff; text-decoration: none; font-size: 1em; line-height: 1em; text-align: left; font-weight: 500; letter-spacing: 0.055em; transition: all 0.3s ease-out; top: auto; left: auto;
+      }
+      aside#menu-movil nav a:hover { color: #6ACF3A; transition: all 0.2s ease-out; }
+      
+      
+      aside#menu-movil.abajo { width: 50%; height: 30%; position: fixed; top: 0; right: -50%; z-index: 9999; margin: 0; float: none; background: rgb(51, 51, 51, 0.95);;
+      }
+      aside#menu-movil.abajo nav { width: 70%; height: auto; position: relative; margin: 6vh auto 0 auto; float: none; top: auto; left: auto; padding: 0; background: none; 
+      }
+      aside#menu-movil.abajo nav a {width: 100%; height: auto; display: block; margin: 0 auto 5vh; color: #fff; text-decoration: none; font-size: 1em; line-height: 1em; text-align: left; font-weight: 500; letter-spacing: 0.055em; transition: all 0.3s ease-out; top: auto; left: auto; position: relative; 
+      }
+      aside#menu-movil.abajo nav a :hover {color: #6ACF3A; opacity: 0.7; transition: all 0.2s ease-out; transition: 0.2s;
+      }
+      aside#menu-movil.abajo img {width: 22%; height: 10%; position: fixed; top: 0px; left: 0px; display: none;}
+
+      
+
+      main { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; }
+
+      main section#atras_hero { position: relative; width: 100%; height: 9vh;}
+
+      main section#titu {width: 100%; height: 20%; position: relative; z-index: 99; margin: 0 auto;}
+      main section#titu article {width: 100%; height: 100%; }
+      main section#titu article p {font-size: 12px; font-weight: 300; line-height: 32px; padding: 0 0 0 6px; font-style: normal;}
+      main section#titu article h2 { position: relative; text-align: center; font-style: normal; font-weight: 500; font-size: 24px; line-height: 32px; padding: 4%; }
+      main section#titu article h1 { width: auto; height: auto; position: relative; font-style: normal; font-weight: 400; font-size: 14px; line-height: 17px; margin: 0 0 0 5%; }
+      
+      main section#formu {width: 100%; height: 100vh; position: relative; margin: 14px auto; }
+      main section#formu form{width: 100%; height: 100%; margin: auto;}
+      
+      main section#formu form label { font-style: normal; font-weight: 500; font-size: 14px; line-height: 32px; color: rgba(0, 0, 0, 0.43);}
+      main section#formu form input { position: relative;}
+      
+      main section#formu form label#tip { width: auto; position: relative; display: block; z-index: 999; height: 20px; text-align: center; margin: 10px 0 10px 0;}
+      main section#formu form hr { width: 63%; height: auto; position: relative; left: 0;}
+      main section#formu form div#div-0 {width: 62%; height: auto; position: relative; left: 19.5%;
+      }
+
+main section#formu form div#div-1 {width: 100%; height: auto; position: relative; left: 0;}
+main section#formu form label#t-departamento { margin: 0 0px 0 40px; }
+main section#formu form input#i-departamento { margin: 0px 0px 15px 40px; display: block;
+}
+main section#formu form label#t-ciudad { margin: 0 0px 0 40px;}
+main section#formu form input#i-ciudad { margin: 0px 0px 0px 40px; display: block;
+}
+
+
+main section#formu form div#div-2 { width: 100%; height: auto; position: relative; left: 0;}
+main section#formu form div label#t-nombre { margin: 0 0px 0 40px;}
+main section#formu form div input#i-nombre { margin: 0px 0px 15px 40px; display: block;
+}
+main section#formu form div label#t-apellido { margin: 0 0px 0 40px;}
+main section#formu form div input#i-apellido { margin: 0px 0px 0px 40px; display: block;
+}
+main section#formu form div label#t-direccion { margin: 0 0px 0 40px;}
+main section#formu form div input#i-direccion { margin: 0px 0px 15px 40px; display: block;
+}
+main section#formu form div label#t-telefono { margin: 0 0px 0 40px;}
+main section#formu form div input#i-telefono { margin: 0px 0px 0px 40px; display: block;
+}
+main section#formu form div label#t-correo { margin: 0 0px 0 40px;}
+main section#formu form div input#i-correo { margin: 0px 0px 15px 40px; display: block;
+}
+    
+      
+main section#formu form div#div-3 {width: 100%; height: auto; position: relative; left: 0;}
+
+main section#formu form label#t-caso {position: relative; }
+      
+main section#formu form div#div-3 textarea#mensaje {width: 30px; height: 20px;}
+
+main section#formu form div#d-enviar { width: 10%; height: 6%; position: relative; top: -7%; left: 77%;}
+
+main section#formu form div input#i-enviar {border-width: 1px; padding: 6px 16px; border-radius: 5px;
+      }
+      
+      main section#final {position: relative; width: 100%; height: 268px; left: 0; top: 0px; 
+background: #3C468F;}
+main section#final article {width: 100%; height: 50%; position: relative; 
+}
+main section#final article a#acc {padding: 0 0 0 0; position: relative; top: 44%; left: 20%; text-decoration: none; color: #ffffff; font-size: 0.8em ;
+}
+main section#final article a#pp {padding: 0 0 0 0; position: relative; top: 44%; left: 24%; text-decoration: none; color: #ffffff; font-size: 0.8em ;
+}
+main section#final article a#tu {padding: 0 0 0 0; position: relative; top: 75%; left: -31%; text-decoration: none; color: #ffffff; font-size: 0.8em ;
+}
+main section#final article a#ayu {padding: 0 0 0 0; position: relative; top: 75%; left: -26%; text-decoration: none; color: #ffffff; font-size: 0.8em ;
+}
+main section#final article hr {width: 84%; height: 1px; position: relative; margin: 0 auto 24px; float: none; border: none; background: rgb(255, 255, 255); opacity: 0.5; top: 130%;
+}
+main section#final article p {padding: 0 2px 0 7%; position: relative; top: 140%; left: 0px; text-decoration: none; color: #ffffff; font-size: 0.7em;
+}
+
+    }
